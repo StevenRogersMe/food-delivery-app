@@ -42,14 +42,14 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 # Features
 
--User registration and authentication
--Browse restaurant menus and available food items
--Add items to cart and place orders
--Real-time tracking of order status
--Payment integration for seamless transactions
--User ratings and reviews for restaurants and meals
--Order history and order tracking
--Push notifications for order updates
+- User registration and authentication
+- Browse restaurant menus and available food items
+- Add items to cart and place orders
+- Real-time tracking of order status
+- Payment integration for seamless transactions
+- User ratings and reviews for restaurants and meals
+- Order history and order tracking
+- Push notifications for order updates
 
 ## Learn More
 
