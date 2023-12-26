@@ -1,9 +1,12 @@
 import React from "react";
 
+// style
+import "@/styles/dashboard/search-section.css";
+
 const SearchSection = () => {
   return (
     <section>
-      <div className="hero_single version_2 kenburns_slider vegas-container">
+      <div className="hero_single version_2">
         <div className="scroll-bg"></div>
         <div className="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)">
           <div className="container">

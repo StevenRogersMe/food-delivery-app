@@ -2,10 +2,16 @@
 import React from "react";
 import CategoryCard from "./CategoryCard";
 import Image from "next/image";
+
+// slider module
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import { SlickArrowLeft, SlickArrowRight } from "./SliderArrow";
+
+// style
+import "@/styles/dashboard/popularcategories.css";
 
 const PopularCategories = () => {
   const categoris = [
@@ -111,20 +117,18 @@ const PopularCategories = () => {
         </div>
 
         {/* <!-- /main_title --> */}
-        <div className="slider-responsive">
-          <Slider {...settings}>
-            {categoris.map(({ _href, _src, title, price, sortNum }, index) => (
-              <CategoryCard
-                key={index}
-                _href={_href}
-                title={title}
-                cat_url={_src}
-                price={price}
-                sortNum={sortNum}
-              />
-            ))}
-          </Slider>
-        </div>
+        <Slider {...settings}>
+          {categoris.map(({ _href, _src, title, price, sortNum }, index) => (
+            <CategoryCard
+              key={index}
+              _href={_href}
+              title={title}
+              cat_url={_src}
+              price={price}
+              sortNum={sortNum}
+            />
+          ))}
+        </Slider>
         {/* <!-- /carousel --> */}
       </div>
     </section>

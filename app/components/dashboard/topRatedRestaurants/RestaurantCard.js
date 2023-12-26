@@ -12,7 +12,7 @@ export default function RestaurantCard({
   off,
 }) {
   return (
-    <div className="item px-2">
+    <div className="px-2">
       <div className="strip">
         <a href={image_href} className="strip_info">
           <figure>

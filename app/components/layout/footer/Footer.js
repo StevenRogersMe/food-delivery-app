@@ -7,6 +7,9 @@ import Instagram_icon from "@/public/img/instagram_icon.svg";
 import Facebook_icon from "@/public/img/facebook_icon.svg";
 import Twitter_icon from "@/public/img/twitter_icon.svg";
 
+// style
+import "@/styles/layout/footer.css";
+
 const Footer = () => {
   return (
     <footer>
@@ -87,21 +90,15 @@ const Footer = () => {
             <div className="collapse dont-collapse-sm" id="collapse_4">
               <div id="newsletter">
                 <div id="message-newsletter"></div>
-                <form
-                  method="post"
-                  action="assets/newsletter.php"
-                  name="newsletter_form"
-                  id="newsletter_form"
-                >
+                <form name="newsletter_form">
                   <div className="form-group">
                     <input
                       type="email"
                       name="email_newsletter"
-                      id="email_newsletter"
                       className="form-control"
                       placeholder="Your email"
                     />
-                    <button type="submit" id="submit-newsletter">
+                    <button type="submit">
                       <i className="arrow_carrot-right"></i>
                     </button>
                   </div>

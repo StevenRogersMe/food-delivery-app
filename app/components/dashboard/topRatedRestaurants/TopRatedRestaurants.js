@@ -8,6 +8,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// style
+import "@/styles/dashboard/top-rated-restaurants.css";
+
 const TopRatedRestaurants = () => {
   const restaurant_arr = [
     {

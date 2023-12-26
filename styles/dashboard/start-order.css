@@ -1,0 +1,38 @@
+.box_how {
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 32px -7px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 32px -7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 32px -7px rgba(0, 0, 0, 0.1);
+  padding: 30px 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box_how h3 {
+  font-size: 21px;
+  font-size: 1.3125rem;
+}
+.box_how p {
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .box_how {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .box_how figure {
+    float: right;
+    margin: 0 0 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  .box_how figure img {
+    width: 80px;
+    height: auto;
+  }
+}
