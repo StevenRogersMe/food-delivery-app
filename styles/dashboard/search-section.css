@@ -251,3 +251,24 @@
     margin: 15px 0 0 0;
   }
 }
+
+.scroll-bg {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 330px;
+  background-image: url("/img/hero_background_search.png");
+  background-size: cover;
+  filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+  opacity: 0.5;
+  animation: scrollBg 120s linear forwards infinite;
+}
+
+@keyframes scrollBg {
+  from {
+    background-position-y: -200%;
+  }
+  to {
+    background-position-y: 200%;
+  }
+}
